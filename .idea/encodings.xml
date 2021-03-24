@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/jtchen/beans/GoBangGame.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/jtchen/command/impl/client/ClientPutChessCommand.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/jtchen/command/impl/client/RemoveChessCommand.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/jtchen/command/impl/client/ShowMessageCommand.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/jtchen/command/impl/server/ServerPutChessCommand.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/jtchen/command/impl/server/ServerSendMessageCommand.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/jtchen/gui/GoBangFrame.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/jtchen/gui/panel/SettingPanel.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/jtchen/gui/panel/gobang/GoBangPanel.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/jtchen/online/GoBangExecutor.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/jtchen/online/client/GoBangClient.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/jtchen/online/client/GoBangClientRecipient.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/jtchen/online/server/GoBangServer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/jtchen/online/server/GoBangServerRecipient.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/jtchen/utils/JSONFactory.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/resources/log4j.properties" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

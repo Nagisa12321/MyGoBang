@@ -53,7 +53,7 @@ public class GoBangClient {
 			sendBasicInformation();
 		} catch (IOException e) {
 			e.printStackTrace();
-			MessageUtils.openDialog("连接服务器失败, 请重试");
+			MessageUtils.openDialog("Failed to connect to the server, please try again");
 		}
 
 		logger.info("已经向服务器发出 basic information, 准备开启收发线程");

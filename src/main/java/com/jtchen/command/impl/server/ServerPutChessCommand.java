@@ -87,7 +87,7 @@ public class ServerPutChessCommand implements Command {
 			Player winner = game.getWinner();
 			JSONObject json = new JSONObject();
 			json.put("type", 4);
-			json.put("message", winner.getName() + " 已经获得胜利, 游戏结束");
+			json.put("message", winner.getName() + " win!");
 
 			try {
 				for (Socket socket : sockets) {

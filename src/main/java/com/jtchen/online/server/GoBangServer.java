@@ -91,13 +91,13 @@ public class GoBangServer implements Runnable {
 					int color = json.getInteger("color");
 					if (color == Chess.WHITE && game.getWhitePlayer() != null) {
 						ServerSendMessageCommand command =
-								new ServerSendMessageCommand(socket, "白色棋子已经有玩家持有啦, 请更换其他的");
+								new ServerSendMessageCommand(socket, "The white pawn is already held by the player, please replace it with another one");
 						queue.put(command);
 						continue;
 					}
 					if (color == Chess.BLACK && game.getBlackPlayer() != null) {
 						ServerSendMessageCommand command =
-								new ServerSendMessageCommand(socket, "黑色棋子已经有玩家持有啦, 请更换其他的");
+								new ServerSendMessageCommand(socket, "The black pawn is already held by the player, please replace it with another one");
 						queue.put(command);
 						continue;
 					}
@@ -115,7 +115,7 @@ public class GoBangServer implements Runnable {
 					if (game.getWhitePlayer() != null && game.getBlackPlayer() != null) {
 						game.start();
 						ServerSendMessageCommand command =
-								new ServerSendMessageCommand(sockets, "游戏开始!");
+								new ServerSendMessageCommand(sockets, "game start");
 						queue.put(command);
 					}
 				}
